@@ -41,7 +41,7 @@ To learn more about NATS and to download the free, open-source server applicatio
 You can install NATS Core with [VI Package Manager](https://www.vipm.io/package/nats_core/). 
 
 ### Requirements
-- [LabVIEW](https://www.ni.com/labview) 2013 or later
+- [LabVIEW](https://www.ni.com/labview) 2023 or later
 
 # Features
 
