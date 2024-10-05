@@ -35,6 +35,6 @@
 		<Item Name="NATS Publish (Polymorphic).vi" Type="VI" URL="../VIs/NATS Publish (Polymorphic).vi"/>
 		<Item Name="NATS READ.vi" Type="VI" URL="../VIs/NATS READ.vi"/>
 		<Item Name="NATS SUB.vi" Type="VI" URL="../VIs/NATS SUB.vi"/>
-		<Item Name="NATS UNSUB.vi" Type="VI" URL="/&lt;vilib&gt;/NATS/NATS Core/VIs/NATS UNSUB.vi"/>
+		<Item Name="NATS UNSUB.vi" Type="VI" URL="../VIs/NATS UNSUB.vi"/>
 	</Item>
 </Library>
