@@ -61,6 +61,8 @@ You can install NATS Core with [VI Package Manager](https://www.vipm.io/package/
 
   - TCP connection refnum exposed to allow use of [LabVIEW 2020 native TLS](https://labviewwiki.org/wiki/VIWeek_2020/Using_the_new_TLS/SSL_functions_in_LabVIEW_2020)
 
+  - NATS Client and NATS subscription classes provided for easy integration of subscriptions into a larger applicaiton with support for request-response framework messaging
+
 # Getting Started
 
 ## Running a NATS Server
