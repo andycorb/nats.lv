@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-27 19:41:33" Modified_Date="2024-10-05 00:59:46" Creator="Drew Herron" Comments="" ID="13a72f6b4be9ea65a23ca33572679752">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-27 19:41:33" Modified_Date="2024-11-20 00:12:52" Creator="Drew Herron" Comments="" ID="a75450d326fcbc7553b471249428c254">
   <Library_General_Settings>
     <Package_File_Name>NATS_Core</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -52,8 +52,7 @@ To learn more about NATS and to download the free, open-source server applicatio
       <Copyright/>
       <Packager/>
       <URL>https://github.com/drew-herron/nats.lv</URL>
-      <Release_Notes>  - First public release
-</Release_Notes>
+      <Release_Notes>- Exposing nats timeout in client</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -401,7 +400,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>VIs\NATS CLOSE.vi</Path>
         <VI_Title>NATS Close TCP</VI_Title>
       </Items_Data>
-      <GUID>842EBDE554FBAFA815DF6480CD2DE215</GUID>
+      <GUID>D95B524943AD47BF86A6F6B56B8648D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -478,7 +477,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>NATS Client\NATS Client request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B6FACB0D76A4DBC04EB76F70591CBB6E</GUID>
+      <GUID>C6F5F9FF0FBA26484AE905FCC8F25AE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -499,34 +498,6 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>NATS Subscription</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>end subscription.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>NATS Subscription\end subscription.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>start subscription.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>NATS Subscription\start subscription.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -555,7 +526,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>NATS Subscription\receive.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E5A362D98F07DA4918685E03126D5ED</GUID>
+      <GUID>B0D66BDB1020D2C8ED91987F082282FD</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -618,7 +589,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>Controls\msg type.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E1B9E3E5D7369F872549B0A2443E312</GUID>
+      <GUID>D72F9C60246BFCDEFFB3484C440EA82F</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -683,7 +654,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>VIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>81E1F3203F0B786312B383F5C6B0446B</GUID>
+      <GUID>9E5EF73D683057D907383897C2A3AF40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -914,7 +885,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>NATS Client\set subscriptions queue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4D8729EFDAE230E9F6CADFC6E458ACAF</GUID>
+      <GUID>A86C946B81162041778993E200ED5303</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -935,20 +906,6 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>NATS Subscription</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>end subscription.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>NATS Subscription\end subscription.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -1050,20 +1007,6 @@ To learn more about NATS and to download the free, open-source server applicatio
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>start subscription.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>NATS Subscription\start subscription.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>wait on reply.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1075,7 +1018,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>NATS Subscription\wait on reply.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>672939A934436AC80B8CBBA90E4962BF</GUID>
+      <GUID>1E6FD7B4B71EF3ED5DCC89EC1D99C4B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1250,7 +1193,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>VIs\NATS UNSUB.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B7E9148B88AA1E220F7CBA0408CFFEE</GUID>
+      <GUID>5E2440485A04AD4C0660E949CB69E4A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1383,7 +1326,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>VIs\subVIs\Validate CONNECT.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F686F3DDA18EC97F2215B1E2AE6891C3</GUID>
+      <GUID>0C79C4649837C544A660F9C29672CBC6</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1432,7 +1375,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2DE941CF672627ADD8EAE9A51E24C21F</GUID>
+      <GUID>F97E0AAF22B7348E0B927B120E37B6FF</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1495,7 +1438,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>Controls\nats message.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BA565F1731DE004F0DABF96839248DF</GUID>
+      <GUID>B4A1284D53D40891311FB24EA5334344</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1544,7 +1487,7 @@ To learn more about NATS and to download the free, open-source server applicatio
         <Path>NATS Client\subscription queue.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>166464DACD1CE05EB6CB914F4232F701</GUID>
+      <GUID>EEA4E8B1A40DBEB22D63E6B7DEA81EB7</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
